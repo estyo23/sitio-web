@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --header: #D7D7D7;
+    --subheader: #F2F2F2;
+    --footer: #F2F2F2;
+    --colorh1:#333333;
+}
+
+.header, .contenedor-general{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 70%;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    padding: 65px;
+    width: 100%;
+    background-color: var(--header);
+    text-align: center;
+    color: var(--colorh1);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.contenedor__item{
+    background-color: var(--subheader);
+    font-size: 20px;
+    display: flex;
+}
+.item-1,
+.item-2,
+.item-3{
+    padding: 20px 60px;
+}
+.enlaces2{
+    color:var(--colorh1);
+    font-weight: bold;
+}
+.img{
+    width: 300px;
+    margin: 40px auto;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 62%;
+    padding: 65px;
+    background-color: var(--footer);
+    text-align: center;
+}
+
+/***Datos personales***/
+.table{
+    width: 620px;
+    margin: 100px auto;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/***Experiencia laboral***/
+.contenedor-experiencia{
+    padding: 75px 55px;
+    font-size: 20px;
+}
+
+
+
